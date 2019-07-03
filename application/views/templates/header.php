@@ -12,7 +12,7 @@
   <nav class="navbar navbar-expand-sm navbar-light bg-light mb-3">
     <div class="container">
         <a class="navbar-brand" href="<?php echo base_url(); ?>">ciBlog</a>
-        <ul class="navbar-nav">
+        <ul class="navbar-nav mr-auto">
             <li class="nav-item">
                 <a class="nav-link" href="<?php echo base_url(); ?>">Home</a>
             </li>
@@ -22,12 +22,12 @@
             <li class="nav-item">
                 <a class="nav-link" href="<?php echo base_url(); ?>posts">Blog</a>
             </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
+                <a class="nav-link" href="<?php echo base_url(); ?>posts/create">Create Post</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-            </li>
+
         </ul>
     </div>
   </nav>
