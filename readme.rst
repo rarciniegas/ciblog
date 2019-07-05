@@ -1,3 +1,9 @@
+##############
+What is ciBlog
+##############
+
+ciBlog is a Blog written using the CodeIgniter Framework from the tutorial by Brad Traversy https://www.traversymedia.com/
+
 ###################
 What is CodeIgniter
 ###################
